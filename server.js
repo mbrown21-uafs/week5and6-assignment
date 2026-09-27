@@ -13,7 +13,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/search", function (req, res){
-	const keyword = req.query.keyboard;
+	const keyword = req.query.keyword;
 
 res.send(`
 	<h2>Search Results</h2>
